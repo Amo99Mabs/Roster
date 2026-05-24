@@ -5,7 +5,7 @@ def add_task():
     tasks.append(task)
     print(f"✅ Task '{task}' added.")
 
-def list_tasks():
+def list_tasks(): 
     if not tasks:
         print("📭 No tasks yet.")
     else:
